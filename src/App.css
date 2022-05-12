@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #d2dbdc;
+    margin: 0;
+    font-family: 'Segoe UI', Helvetica Neue, Helvetica, Lucida Grande, Arial;
+}
+
+.ContainerGeral {
+    display: flex;
+    height: 100vh;
+    background-color: #ededed;
+}
+
+.listaAmigo{
+    width: 35%;
+    max-width: 415px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ddd;    
+}
+header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 15px;   
+}
+.logadoAvatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.header-buttons{
+    display: flex;
+}
+
+.headerIcons{    
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search{
+    background-color: #f6f6f6;
+    border-bottom: 1px solide #eee;
+    padding: 5px 15px;
+}
+
+.search-Input {
+    background-color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.search-Input input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.chatList{
+    flex: 1;
+    background-color: #fff;
+    overflow-y: auto ;
+}
+.chatList::-webkit-scrollbar{
+    width: 6px;
+    height: 6px;
+}
+
+.chatList::-webkit-scrollbar-thumb{
+    background-color: rgba(0,0,0, 0.2);    
+}
+
+
+
+
+
+
+
+.conteudoConversa{
+    flex: 1;
+}
